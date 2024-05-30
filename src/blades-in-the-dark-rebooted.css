@@ -1,0 +1,7 @@
+// only required in dev
+
+// in prod, foundry loads blades-in-the-dark-rebooted.css, as compiled by vite/rollup,
+// mostly from the `import blades-in-the-dark-rebooted.scss` line at the top of blades-in-the-dark-rebooted.ts
+
+// in dev, foundry loads style.css, this file, which is a no-op
+// in dev, blades-in-the-dark-rebooted.ts imports blades-in-the-dark-rebooted.scss directly

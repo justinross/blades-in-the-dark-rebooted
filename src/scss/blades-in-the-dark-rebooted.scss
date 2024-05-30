@@ -1,0 +1,23 @@
+// Import utilities.
+@import 'utils/fonts';
+@import 'utils/typography';
+@import 'utils/colors';
+@import 'utils/mixins';
+@import 'utils/variables';
+
+/* Global styles */
+@import 'global/window';
+@import 'global/grid';
+@import 'global/flex';
+
+/* Styles limited to blades-in-the-dark-rebooted sheets */
+.blades-in-the-dark-rebooted {
+  @import 'components/forms';
+  @import 'components/resource';
+  @import 'components/items';
+  @import 'components/effects';
+}
+
+*{
+  font-family: $font-text;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "blades-in-the-dark-rebooted",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node ./tools/packJsonToLdb.js && vite build",
+    "extractPacks": "node ./tools/extractLdbToJson.js",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Justin Ross",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "@league-of-foundry-developers/foundry-vtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#v12/client-esm",
+    "sass": "^1.77.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
